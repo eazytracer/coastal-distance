@@ -1,0 +1,14 @@
+# environment
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+
+# downloaded inputs (the notebooks fetch these)
+data/
+
+# large generated rasters
+*.tif
+*.tiff
+outputs/mosaic/tiles/
+outputs/mosaic/naive_tiles/
